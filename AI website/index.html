@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+    <html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaMind AI - Intelligent Solutions for Modern Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NexaMind AI</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="icon-moon">🌙</span>
+                    <span class="icon-sun" style="display:none">☀️</span>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background: url('pexels-thisisengineering-3861969.jpg') center/cover no-repeat; min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative;">
+        <div class="hero-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 70%), linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.3) 100%); pointer-events: none;"></div>
+        <div class="hero-container" style="position: relative; z-index: 2; text-align: center;">
+            <div class="hero-content">
+                <h1 class="hero-title"><span id="typewriter-title"></span><span class="cursor" id="cursor-title">|</span></h1>
+                <p class="hero-tagline"><span id="typewriter-tagline"></span><span class="cursor" id="cursor-tagline">|</span></p>
+                <button class="cta-button">Book a Consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>AI Strategy</h3>
+                    <p>Comprehensive AI roadmap development to align artificial intelligence initiatives with your business objectives and digital transformation goals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Machine Learning Solutions</h3>
+                    <p>Custom ML models and algorithms designed to automate processes, predict outcomes, and unlock valuable insights from your data.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Data Analytics & Insights</h3>
+                    <p>Advanced data analysis and visualization services that transform raw data into actionable business intelligence and strategic decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why NexaMind Section -->
+    <section class="why-nexamind">
+        <div class="container">
+            <h2 class="section-title">Why NexaMind</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">40+</div>
+                    <div class="stat-label">Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"NexaMind AI transformed our data analytics capabilities. Their machine learning solutions helped us reduce operational costs by 35% within just 6 months."</p>
+                    <div class="testimonial-author">
+                        <strong>Dr. Sarah Mueller</strong>
+                        <span>CTO, TechVision GmbH</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Working with Dr. Elena Voss and the NexaMind team was exceptional. Their AI strategy consulting gave us a clear roadmap that aligned perfectly with our business goals."</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Weber</strong>
+                        <span>CEO, Innovate Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Ready to transform your business?</h2>
+            <p>Let's discuss how AI can revolutionize your operations and drive growth.</p>
+                <a href="services.html" class="cta-button">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Got Questions?</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What industries do you work with?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We work with finance, healthcare, manufacturing, retail, and tech.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How long does a typical project take?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most projects run 8–12 weeks from kickoff to deployment.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do we need an existing data team?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No. We provide the full technical capability ourselves.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's your pricing model?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project-based pricing and monthly retainers. Free consultation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do you handle data security?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All data encrypted. GDPR compliant. Custom NDAs available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NexaMind AI</h3>
+                    <p>Intelligent Solutions for Modern Business</p>
+                    <p>Berlin, Germany</p>
+                    <p>CEO: Dr. Elena Voss | CTO: Marcus Chen</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@nexamind.ai</p>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NexaMind AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

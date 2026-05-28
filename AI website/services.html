@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - NexaMind AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NexaMind AI</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="icon-moon">🌙</span>
+                    <span class="icon-sun" style="display:none">☀️</span>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Our Services</h1>
+                <p class="hero-tagline">End-to-end AI solutions tailored to your business</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 1: AI Strategy & Consulting -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-text">
+                    <h2>AI Strategy & Consulting</h2>
+                    <p class="service-description">Help businesses identify where AI creates the most value</p>
+                    <div class="service-includes">
+                        <h4>Includes:</h4>
+                        <ul>
+                            <li>AI readiness assessment</li>
+                            <li>Strategic roadmap development</li>
+                            <li>ROI modeling and analysis</li>
+                            <li>Implementation planning</li>
+                        </ul>
+                    </div>
+                    <button class="cta-button">Learn More</button>
+                </div>
+                <div class="service-detail-visual">
+                    <div class="service-illustration">
+                        <div class="illustration-placeholder">
+                            <span>📊</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 2: Machine Learning Solutions -->
+    <section class="service-detail service-alt">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-visual">
+                    <div class="service-illustration">
+                        <div class="illustration-placeholder">
+                            <span>🤖</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-detail-text">
+                    <h2>Machine Learning Solutions</h2>
+                    <p class="service-description">Custom ML models for prediction, classification, automation</p>
+                    <div class="service-includes">
+                        <h4>Includes:</h4>
+                        <ul>
+                            <li>Model design and architecture</li>
+                            <li>Data training and validation</li>
+                            <li>Deployment and integration</li>
+                            <li>Performance monitoring</li>
+                        </ul>
+                    </div>
+                    <button class="cta-button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 3: Data Analytics & Insights -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-text">
+                    <h2>Data Analytics & Insights</h2>
+                    <p class="service-description">Turn raw data into business intelligence</p>
+                    <div class="service-includes">
+                        <h4>Includes:</h4>
+                        <ul>
+                            <li>Interactive dashboards</li>
+                            <li>Automated reporting systems</li>
+                            <li>Data pipeline construction</li>
+                            <li>Advanced visualization</li>
+                        </ul>
+                    </div>
+                    <button class="cta-button">Learn More</button>
+                </div>
+                <div class="service-detail-visual">
+                    <div class="service-illustration">
+                        <div class="illustration-placeholder">
+                            <span>📈</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- See How We Work Section -->
+    <section class="how-we-work">
+        <div class="container">
+            <h2 class="section-title">See How We Work</h2>
+            <div class="video-wrapper">
+                <div class="video-container" id="videoContainer">
+                    <img src="https://img.youtube.com/vi/RPKsAmJg0z8/maxresdefault.jpg" alt="How NexaMind AI Works" class="video-thumbnail" id="videoThumbnail">
+                    <div class="play-button" id="playButton">
+                        <svg viewBox="0 0 24 24" width="60" height="60" fill="white">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Section -->
+    <section class="bottom-cta">
+        <div class="container">
+            <div class="bottom-cta-content">
+                <h2>Not sure which service fits?</h2>
+                <p>Let's talk. We'll help you identify the perfect AI solution for your business needs.</p>
+                <button class="cta-button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NexaMind AI</h3>
+                    <p>Intelligent Solutions for Modern Business</p>
+                    <p>Berlin, Germany</p>
+                    <p>CEO: Dr. Elena Voss | CTO: Marcus Chen</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@nexamind.ai</p>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NexaMind AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
